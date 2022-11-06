@@ -69,8 +69,6 @@ void client()
                 printf("Connecting to %s\n", servers[i]);
                 clientTask(servers[i]);
             }
-
-            continue;
         }
     }
 }
