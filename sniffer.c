@@ -1,5 +1,6 @@
 #include <netdb.h>
 #include <netinet/in.h>
+#include <netinet/sctp.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +9,7 @@
 
 #define BUFFER_SIZE 1024
 #define PORT 8080
-#define PROTOCOL IPPROTO_TCP
+#define PROTOCOL IPPROTO_SCTP
 
 void sendFile();
 void receiveFile(int, char *);
