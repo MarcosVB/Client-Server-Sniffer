@@ -1,6 +1,6 @@
 # Client-Server-Sniffer
 
-Client/Server iimplementation in C language using TCP/SCTP protocols.
+Client-Server implementation in C language using TCP/SCTP protocols.
 
 Application developed as workpaper for the Computer Network class. University of Vale do Rio dos Sinos, Brazil/Rio Grande do Sul.
 
@@ -18,6 +18,7 @@ Note that the TCPDUMP options are hardcoded and will only execute for 1 second.
 ![Sample_Run](./docs/images/sample_run.png)
 
 ### Comparison between protocols
+For this comparison the "dump" command was executed to receive a ".pcap" file from a single remote machine using both TCP and SCTP protocols.
 
 ![Packets_and_Bytes_sent](./docs/images/packets_bytes.png)
 
